@@ -1,0 +1,16 @@
+D:\Project\GPACalculator-main\bin\Debug\net8.0-windows\GPA2.exe
+D:\Project\GPACalculator-main\bin\Debug\net8.0-windows\GPA2.deps.json
+D:\Project\GPACalculator-main\bin\Debug\net8.0-windows\GPA2.runtimeconfig.json
+D:\Project\GPACalculator-main\bin\Debug\net8.0-windows\GPA2.dll
+D:\Project\GPACalculator-main\bin\Debug\net8.0-windows\GPA2.pdb
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\GPA2.csproj.GenerateResource.cache
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\GPA2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\GPA2.AssemblyInfoInputs.cache
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\GPA2.AssemblyInfo.cs
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\GPA2.csproj.CoreCompileInputs.cache
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\GPA2.dll
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\refint\GPA2.dll
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\GPA2.pdb
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\GPA2.genruntimeconfig.cache
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\ref\GPA2.dll
+D:\Project\GPACalculator-main\obj\Debug\net8.0-windows\GPACalculatorApp.Form1.resources
