@@ -1,42 +1,42 @@
-﻿
-## รายละเอียดระบบ
-ระบบนี้ช่วยให้นักศึกษาสามารถจองสนามบาสเกตบอลได้ผ่านแอปพลิเคชัน โดยมีการจัดการข้อมูลนักศึกษา สนาม และการจอง
 
-## Class Diagram
 ```mermaid
 classDiagram
-    class Student {
-        - string studentID
-        - string name
-        - string email
-        + register()
-        + bookCourt()
-    }
-
-    class Court {
-        - string courtID
-        - string location
-        - bool isAvailable
-        + checkAvailability()
+    class User {
+        <<entity>>
+        - string userID
+        - string fullName
+        - string emailAddress
+        + signUp()
         + reserveCourt()
     }
 
-    class Booking {
-        - string bookingID
-        - Student student
-        - Court court
-        - DateTime bookingDate
-        + confirmBooking()
-        + cancelBooking()
+    class Facility {
+        <<entity>>
+        - string facilityID
+        - string location
+        - bool available
+        + checkFacilityStatus()
+        + bookFacility()
     }
 
-    class Admin {
+    class Reservation {
+        <<control>>
+        - string reservationID
+        - User user
+        - Facility facility
+        - DateTime reservationTime
+        + finalizeReservation()
+        + cancelReservation()
+    }
+
+    class Administrator {
+        <<boundary>>
         - string adminID
         - string username
-        + manageCourts()
-        + approveBooking()
+        + overseeFacilities()
+        + approveReservations()
     }
 
-    Student --> Booking : makes
-    Court --> Booking : is reserved in
-    Admin --> Booking : manages
+    User ..> Reservation : creates
+    Facility --|> Reservation : is booked in
+    Administrator o-- Reservation : oversees
